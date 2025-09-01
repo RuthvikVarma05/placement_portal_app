@@ -38,7 +38,7 @@ function App() {
       <Route path="/resume" element={<PrivateRoute><ResumeBuilder /></PrivateRoute>}/> 
       <Route path="/jobs" element={<PrivateRoute><Jobs /></PrivateRoute>} />
       <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
-      <Route path="/jobs/:id" element={<JobDetails/>} />
+      {/* <Route path="/jobs/:id" element={<JobDetails/>} /> */}
 
     </Routes>
       
